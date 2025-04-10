@@ -102,7 +102,7 @@ jobs:
 
       - name: Run Authentication Log Generator
         env:
-          ELASTIC_URL: "https://my-lab.es.us-west-2.aws.found.io"
+          ELASTIC_URL: "https://my-lab.kb.us-west-2.aws.found.io"
           ELASTIC_API_KEY: ${{ secrets.ELASTIC_API_KEY }}
         run: python scripts/windows_logs_gen.py
 
